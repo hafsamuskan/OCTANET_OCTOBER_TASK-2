@@ -1,0 +1,63 @@
+body{
+    background-image: url("img.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    font-size: 19px;
+}
+
+button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(86, 98, 98);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    outline: none;
+    border-radius: 2px;
+    font-size: 19px;
+}
+
+.text ul{
+    position: relative;
+    background-color: rgb(108, 116, 115);
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+}
+
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
